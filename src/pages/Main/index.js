@@ -1,8 +1,13 @@
 import React from 'react';
-import { View } from 'react-native';
+
+import Header from '../../components/Header';
 
 import { Container } from './styles';
 
 export default function Main() {
-  return <Container />;
+  return (
+    <Container>
+      <Header />
+    </Container>
+  );
 }
