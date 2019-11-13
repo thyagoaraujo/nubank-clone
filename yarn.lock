@@ -1578,6 +1578,13 @@ camelize@^1.0.0:
   resolved "https://registry.yarnpkg.com/camelize/-/camelize-1.0.0.tgz#164a5483e630fa4321e5af07020e531831b2609b"
   integrity sha1-FkpUg+Yw+kMh5a8HAg5TGDGyYJs=
 
+can-promise@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/can-promise/-/can-promise-0.0.1.tgz#7a7597ad801fb14c8b22341dfec314b6bd6ad8d3"
+  integrity sha512-gzVrHyyrvgt0YpDm7pn04MQt8gjh0ZAhN4ZDyCRtGl6YnuuK6b4aiUTD7G52r9l4YNmxfTtEscb92vxtAlL6XQ==
+  dependencies:
+    window-or-global "^1.0.1"
+
 caniuse-lite@^1.0.30001004:
   version "1.0.30001008"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001008.tgz#b8841b1df78a9f5ed9702537ef592f1f8772c0d9"
@@ -1823,7 +1830,7 @@ cosmiconfig@^5.0.5:
     js-yaml "^3.13.1"
     parse-json "^4.0.0"
 
-create-react-class@^15.6.2, create-react-class@^15.6.3:
+create-react-class@^15.6.0, create-react-class@^15.6.2, create-react-class@^15.6.3:
   version "15.6.3"
   resolved "https://registry.yarnpkg.com/create-react-class/-/create-react-class-15.6.3.tgz#2d73237fb3f970ae6ebe011a9e66f46dbca80036"
   integrity sha512-M+/3Q6E6DLO6Yx3OwrWjwHBnvfXXYA7W+dFjt/ZDBemHO1DDZhsalX/NUtnTYclN6GfnBDRh4qRHjcDHmlJBJg==
@@ -1985,6 +1992,11 @@ detect-libc@^1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-1.0.3.tgz#fa137c4bd698edf55cd5cd02ac559f91a4c4ba9b"
   integrity sha1-+hN8S9aY7fVc1c0CrFWfkaTEups=
+
+dijkstrajs@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/dijkstrajs/-/dijkstrajs-1.0.1.tgz#d3cd81221e3ea40742cfcde556d4e99e98ddc71b"
+  integrity sha1-082BIh4+pAdCz83lVtTpnpjdxxs=
 
 doctrine@1.5.0:
   version "1.5.0"
@@ -2413,6 +2425,14 @@ expo-asset@~7.0.0:
     blueimp-md5 "^2.10.0"
     path-browserify "^1.0.0"
     url-parse "^1.4.4"
+
+expo-barcode-scanner@~7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/expo-barcode-scanner/-/expo-barcode-scanner-7.0.0.tgz#75bb2dc66565f9e46ae1d4330452e2c96a4b5a7f"
+  integrity sha512-n8a/Xqtumw+o19PjFrPw12jfEyjA/UtJLAmXAiS0h+ociinjIkJKnLbCwUcCODLsgc6nn2lhd6TtZgQdvFEnbw==
+  dependencies:
+    lodash "^4.6.0"
+    prop-types "^15.6.0"
 
 expo-constants@~7.0.0:
   version "7.0.1"
@@ -3416,6 +3436,11 @@ isarray@1.0.0, isarray@^1.0.0, isarray@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
   integrity sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
+
+isarray@^2.0.1:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/isarray/-/isarray-2.0.5.tgz#8af1e4c1221244cc62459faf38940d4e644a5723"
+  integrity sha512-xHjhDr3cNBK0BzdUJSPXZntQUx/mwMS5Rw4A7lPJ90XGAO6ISP/ePDNuo0vhqOZU+UD5JoodwCAAoZQd3FeAKw==
 
 isexe@^2.0.0:
   version "2.0.0"
@@ -4806,6 +4831,11 @@ plugin-error@^0.1.2:
     arr-union "^2.0.1"
     extend-shallow "^1.1.2"
 
+pngjs@^3.3.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/pngjs/-/pngjs-3.4.0.tgz#99ca7d725965fb655814eaf65f38f12bbdbf555f"
+  integrity sha512-NCrCHhWmnQklfH4MtJMRjZ2a8c80qXeMlQMv2uVp9ISJMTt562SbGd6n2oq0PaPgKm7Z6pL9E2UlLIhC+SHL3w==
+
 posix-character-classes@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
@@ -4913,6 +4943,22 @@ punycode@^2.1.0:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
+qr.js@0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/qr.js/-/qr.js-0.0.0.tgz#cace86386f59a0db8050fa90d9b6b0e88a1e364f"
+  integrity sha1-ys6GOG9ZoNuAUPqQ2baw6IoeNk8=
+
+qrcode@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/qrcode/-/qrcode-1.2.0.tgz#330d24313fbf8d429a806091af9525250239e44a"
+  integrity sha512-wZK0Z0eYmOUDP2tOGzmLdeBn5Npa+4wms9GdvzH7HrywvGUq/Stz0BKUhW4DfmBf1PSrm9dNfdnVDq683Zxvag==
+  dependencies:
+    can-promise "^0.0.1"
+    dijkstrajs "^1.0.1"
+    isarray "^2.0.1"
+    pngjs "^3.3.0"
+    yargs "^8.0.2"
+
 qs@^6.5.0:
   version "6.9.1"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.9.1.tgz#20082c65cb78223635ab1a9eaca8875a29bf8ec9"
@@ -5017,6 +5063,23 @@ react-native-iphone-x-helper@^1.2.1:
   resolved "https://registry.yarnpkg.com/react-native-iphone-x-helper/-/react-native-iphone-x-helper-1.2.1.tgz#645e2ffbbb49e80844bb4cbbe34a126fda1e6772"
   integrity sha512-/VbpIEp8tSNNHIvstuA3Swx610whci1Zpc9mqNkqn14DkMbw+ORviln2u0XyHG1kPvvwTNGZY6QpeFwxYaSdbQ==
 
+react-native-qrcode-svg@^5.3.2:
+  version "5.3.2"
+  resolved "https://registry.yarnpkg.com/react-native-qrcode-svg/-/react-native-qrcode-svg-5.3.2.tgz#6d82c50f4bd264e8eecc08533b0ac2fade8178d3"
+  integrity sha512-qXujuIqog2PQ0jLa88emqDy8NcDBF41jRf5Rm/7DEY5wFnIiLrN3p7X+ucFDIIUqWuKB2gKdrb7HDs0eK2aryQ==
+  dependencies:
+    prop-types "^15.5.10"
+    qrcode "1.2.0"
+
+react-native-qrcode@^0.2.7:
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/react-native-qrcode/-/react-native-qrcode-0.2.7.tgz#d103166fb1a5b53643e8bf7b88c0672e689ac4f8"
+  integrity sha512-Xvc3T1h95zA9tbRxiMkKethDYpPwKcqDPIHe9Cxt7pM+lma9dSzd6yXGGLGeZmFU/SmHMK+4bTnDltUv1s4Jnw==
+  dependencies:
+    create-react-class "^15.6.0"
+    prop-types "^15.5.10"
+    qr.js "0.0.0"
+
 react-native-safe-area-view@^0.14.1:
   version "0.14.8"
   resolved "https://registry.yarnpkg.com/react-native-safe-area-view/-/react-native-safe-area-view-0.14.8.tgz#ef33c46ff8164ae77acad48c3039ec9c34873e5b"
@@ -5030,6 +5093,11 @@ react-native-safe-area-view@^0.14.1:
   integrity sha512-tOxHGQUN83MTmQB4ghoQkibqOdGiX4JQEmeyEv96MKWO/x8T2PJv84ECUos9hD3blPRQwVwSpAid1PPPhrVEaw==
   dependencies:
     debounce "^1.2.0"
+
+react-native-svg@9.9.5:
+  version "9.9.5"
+  resolved "https://registry.yarnpkg.com/react-native-svg/-/react-native-svg-9.9.5.tgz#5f9fa196ac78ac10c0ce85152e429dba98353904"
+  integrity sha512-nqiPIsC1jB1TUK+ii7ryWc2pDU+YFJojj3awWXOKEP214gfKvjypjvjmW4PCcH70uBLUp3AwaDK2GI/hmbmaoA==
 
 react-native-view-shot@2.6.0:
   version "2.6.0"
@@ -6241,6 +6309,11 @@ wide-align@^1.1.0:
   dependencies:
     string-width "^1.0.2 || 2"
 
+window-or-global@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/window-or-global/-/window-or-global-1.0.1.tgz#dbe45ba2a291aabc56d62cf66c45b7fa322946de"
+  integrity sha1-2+RboqKRqrxW1iz2bEW3+jIpRt4=
+
 word-wrap@~1.2.3:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/word-wrap/-/word-wrap-1.2.3.tgz#610636f6b1f703891bd34771ccb17fb93b47079c"
@@ -6358,6 +6431,25 @@ yargs-parser@^7.0.0:
   integrity sha1-jQrELxbqVd69MyyvTEA4s+P139k=
   dependencies:
     camelcase "^4.1.0"
+
+yargs@^8.0.2:
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/yargs/-/yargs-8.0.2.tgz#6299a9055b1cefc969ff7e79c1d918dceb22c360"
+  integrity sha1-YpmpBVsc78lp/355wdkY3Osiw2A=
+  dependencies:
+    camelcase "^4.1.0"
+    cliui "^3.2.0"
+    decamelize "^1.1.1"
+    get-caller-file "^1.0.1"
+    os-locale "^2.0.0"
+    read-pkg-up "^2.0.0"
+    require-directory "^2.1.1"
+    require-main-filename "^1.0.1"
+    set-blocking "^2.0.0"
+    string-width "^2.0.0"
+    which-module "^2.0.0"
+    y18n "^3.2.1"
+    yargs-parser "^7.0.0"
 
 yargs@^9.0.0:
   version "9.0.1"
