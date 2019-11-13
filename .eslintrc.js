@@ -36,6 +36,7 @@ module.exports = {
     'react/static-property-placement': 'off',
     'react/jsx-props-no-spreading': 'off',
     'react/prop-types': ['error', { ignore: ['navigation', 'tintColor'] }],
+    'react/prop-types': 'off',
   },
   settings: {},
 };
