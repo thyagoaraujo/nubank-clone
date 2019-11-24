@@ -18,7 +18,7 @@ This project was developed with the following technologies:
 - [react-native-vector-icons](https://oblador.github.io/react-native-vector-icons/)
 - [react-native-qrcode](https://www.npmjs.com/package/react-native-qrcode)
 - [styled-components](https://www.styled-components.com/)
-- [VS Code][vc] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
+- [VS Code] with [EditorConfig] and [ESLint]
 
 ## :information_source: How To Use
 
@@ -46,4 +46,4 @@ This project is under the MIT license. See the [LICENSE](https://github.com/thya
 
 ---
 
-Made with ♥ by Thyago Araujo :wave: [Get in touch!](linkedin.com/in/thyagosantosaraujo/)
+Made with ♥ by Thyago Araujo :wave: [Get in touch!](https://www.linkedin.com/in/thyagosantosaraujo/)
